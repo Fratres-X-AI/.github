@@ -21,7 +21,7 @@ Our work is grounded in **physics-first modeling**, honest uncertainty quantific
 - **[RADR-mk.60](https://github.com/Fratres-X-AI/RADR-mk.60)** — Recoilless Anti-Drone Rocket System
 - **[MFKS-Kinetic-Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud)** — Terminal Kinetic Cloud Defense
 - **[MS-V](https://github.com/Fratres-X-AI/MS-V)** — Multi-Spectral Obscurant Grenade
-- **[SHEAR](https://github.com/Fratres-X-AI/SHEAR)** — Sensor-Degraded Hypersonic Engagement & Reachable Set Prediction
+
 
 ### Philosophy
 
@@ -29,10 +29,7 @@ We prioritize **adaptability**, technical honesty, and building systems that rem
 
 ### Seeking Opportunities
 
-Actively looking for collaboration, contracting, or full-time roles with:
-- Defense Prime Contractors
-- Defense Innovation Unit (DIU)
-- AFWERX, Army Futures Command, and similar organizations
+Actively looking for collaboration, contracting, or full-time roles.
 
 ---
 
