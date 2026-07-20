@@ -6,7 +6,7 @@
 
 Fratres X AI builds reviewable AI, autonomy, and defensive technology prototypes with physics-first modeling, honest maturity labels, and rapid iteration. No AI magic. No inflated claims. Just serious technical work moving from thought to tangible asset.
 
-**[Website](https://www.fratres-x.com)** · **[Consulting](https://www.fratres-x.com/consulting)** · **[About](https://www.fratres-x.com/about)** · **[Request a Meeting](mailto:kylebean@fratres-x.com)** · **[LinkedIn](https://www.linkedin.com/in/kyle-bean-fratresxai/)**
+**[Website](https://www.fratres-x.com)** · **[Consulting](https://www.fratres-x.com/consulting)** · **[About](https://www.fratres-x.com/about)** · **[Request a Meeting](mailto:kylebean@fratres-x.com)** · **[LinkedIn](https://www.linkedin.com/in/kyle-bean-fratresxai/)** · **[Support](https://paypal.me/KyB413)**
 
 ---
 
