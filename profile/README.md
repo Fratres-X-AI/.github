@@ -49,7 +49,7 @@ A portfolio of research threads, prototypes, and reliability tooling across defe
 | Contested Autonomy | **[JamBoy](https://github.com/Fratres-X-AI/JamBoy)** — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink | Public |
 | Defensive Sensing | **[SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I)** — receive-oriented field sensing concepts | Public |
 | Counter-UAS | **[MPL-D](https://github.com/Fratres-X-AI/MPL-D)** — non-kinetic / optical sensor-denial research thread | Public |
-| Counter-UAS | **[MS-C](https://github.com/Fratres-X-AI/MS-C)** — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Public |
+| Counter-UAS | **[MS-C](https://github.com/Fratres-X-AI/MS-C)** — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Private |
 | Counter-UAS Defense | **[MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud)** — dense, low-cost kinetic intercept cloud concept | Public |
 | Rocket Architecture | **[RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60)** — Phase 0 counter-UAS rocket architecture and modeling | Public |
 | Counter-UAS Stack | **[ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS)** — ROS 2 counter-UAS research stack: sensing, fusion, autonomy scaffolding | Public |
