@@ -29,6 +29,7 @@ Built for serious systems where trust comes first.
 ### Focus Areas
 
 - GPS-denied autonomy and navigation health
+- UGV ground mobility and traversability under uncertainty
 - Multi-domain sensor fusion and decision support
 - Counter-UAS and defensive systems concepts
 - AI safety, classifier hardening, and adversarial evaluation
@@ -44,9 +45,11 @@ A portfolio of research threads, prototypes, and reliability tooling across defe
 | --- | --- | --- |
 | Missile Defense AI | **HYPERLINK** — disciplined constellations of imperfect models: uncertainty, handoff under pressure, simulation | Private research |
 | Contested Autonomy | **Charybdis** — hybrid surface/submerged UUV navigation with terrain aiding and reviewable validation gates | Private research |
+| UGV Ground Mobility | **[HEEL-G RUT](https://github.com/Fratres-X-AI/RUT)** — Bekker-Wong traversability gates, evidence export, DEM/proprioception scaffold | Private Phase 1–2 |
 | Contested Autonomy | **[JamBoy](https://github.com/Fratres-X-AI/JamBoy)** — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink | Public |
 | Defensive Sensing | **[SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I)** — receive-oriented field sensing concepts | Public |
 | Counter-UAS | **[MPL-D](https://github.com/Fratres-X-AI/MPL-D)** — non-kinetic / optical sensor-denial research thread | Public |
+| Counter-UAS | **[MS-C](https://github.com/Fratres-X-AI/MS-C)** — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Public |
 | Counter-UAS Defense | **[MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud)** — dense, low-cost kinetic intercept cloud concept | Public |
 | Rocket Architecture | **[RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60)** — Phase 0 counter-UAS rocket architecture and modeling | Public |
 | Counter-UAS Stack | **[ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS)** — ROS 2 counter-UAS research stack: sensing, fusion, autonomy scaffolding | Public |
