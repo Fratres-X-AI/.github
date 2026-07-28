@@ -6,7 +6,7 @@
 
 Fratres X AI builds reviewable AI, autonomy, and defensive technology prototypes with physics-first modeling, honest maturity labels, and rapid iteration. No AI magic. No inflated claims. Just serious technical work moving from thought to tangible asset.
 
-**[Website](https://www.fratres-x.com)** · **[Consulting](https://www.fratres-x.com/consulting)** · **[About](https://www.fratres-x.com/about)** · **[Request a Meeting](mailto:kylebean@fratres-x.com)** · **[LinkedIn](https://www.linkedin.com/in/kyle-bean-fratresxai/)** · **[Support](https://paypal.me/KyB413)**
+**[Website](https://www.fratres-x.com)** · **[Consulting](https://www.fratres-x.com/consulting)** · **[About](https://www.fratres-x.com/about)** · **[Request a Meeting](https://www.fratres-x.com/request-meeting)** · **[LinkedIn](https://www.linkedin.com/in/kyle-bean-fratresxai/)** · **[Support](https://paypal.me/KyB413)**
 
 ---
 
@@ -41,35 +41,43 @@ Built for serious systems where trust comes first.
 
 A portfolio of research threads, prototypes, and reliability tooling across defense, autonomy, AI safety, and medical AI.
 
+Visibility below matches the org as of **2026-07-28**. Public links go to live repos. Private threads are named only — details stay behind the curtain / NDA.
+
 | Thread | Project | Status |
 | --- | --- | --- |
-| Missile Defense AI | **HYPERLINK** — disciplined constellations of imperfect models: uncertainty, handoff under pressure, simulation | Private research |
-| Contested Autonomy | **Charybdis** — hybrid surface/submerged UUV navigation with terrain aiding and reviewable validation gates | Private research |
-| UGV Ground Mobility | **[HEEL-G RUT](https://github.com/Fratres-X-AI/RUT)** — Bekker-Wong traversability gates, evidence export, DEM/proprioception scaffold | Private Phase 1–2 |
-| Contested Autonomy | **[JamBoy](https://github.com/Fratres-X-AI/JamBoy)** — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink | Public |
-| Defensive Sensing | **[SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I)** — receive-oriented field sensing concepts | Public |
-| Counter-UAS | **[MPL-D](https://github.com/Fratres-X-AI/MPL-D)** — non-kinetic / optical sensor-denial research thread | Public |
-| Counter-UAS | **[MS-C](https://github.com/Fratres-X-AI/MS-C)** — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Private |
-| Counter-UAS Defense | **[MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud)** — dense, low-cost kinetic intercept cloud concept | Public |
-| Rocket Architecture | **[RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60)** — Phase 0 counter-UAS rocket architecture and modeling | Public |
-| Counter-UAS Stack | **[ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS)** — ROS 2 counter-UAS research stack: sensing, fusion, autonomy scaffolding | Public |
-| AI Containment | **[A.C.E](https://github.com/Fratres-X-AI/A.C.E)** — Aegis Containment Engine: auditable, layered AI containment | Public |
-| Maritime Sensing | **[MAVMRF](https://github.com/Fratres-X-AI/mavmrf)** — simulation-first multi-sensor maritime detect-track-classify | Public |
-| Effects Concepts | **[MS-V](https://github.com/Fratres-X-AI/MS-V)** — multi-spectral obscurant grenade (Veil) concept | Public |
+| Missile Defense AI | HYPERLINK — disciplined constellations of imperfect models: uncertainty, handoff under pressure, simulation | Private research |
+| Contested Autonomy | Charybdis — hybrid surface/submerged UUV navigation with terrain aiding and reviewable validation gates | Private research |
+| UGV Ground Mobility | [HEEL-G RUT](https://github.com/Fratres-X-AI/RUT) — Bekker–Wong traversability gates, evidence export, DEM/proprioception scaffold | **Public** |
+| Contested Autonomy | [JamBoy](https://github.com/Fratres-X-AI/JamBoy) — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink | **Public** |
+| Defensive Sensing | [SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I) — receive-oriented field sensing concepts | **Public** |
+| Counter-UAS Stack | [ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS) — ROS 2 counter-UAS research stack: sensing, fusion, autonomy scaffolding | **Public** |
+| Counter-UAS Defense | [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept | **Public** |
+| Rocket Architecture | [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture and modeling | **Public** |
+| Maritime Sensing | [MAVMRF](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify | **Public** |
+| AI Containment | [A.C.E](https://github.com/Fratres-X-AI/A.C.E) — Aegis Containment Engine: auditable, layered AI containment | **Public** |
+| Agent Forensics | [SAGE](https://github.com/Fratres-X-AI/SAGE) — fail-closed agent incident forensics | **Public** |
+| Claims Discipline | [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — public claims rubric for autonomy under EW / GNSS / datalink denial | **Public** |
+| Systems / tooling | [SYNAPSE](https://github.com/Fratres-X-AI/SYNAPSE) | **Public** |
+| Counter-UAS | MPL-D — non-kinetic / optical sensor-denial research thread | Private |
+| Counter-UAS | MS-C — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Private |
+| Effects Concepts | MS-V — multi-spectral obscurant grenade (Veil) concept | Private |
+| CUAS Stack | Wicked Web / constellation and related soft-kill glue | Private |
+| Soft-kill doctrine | PitchBlack, Vampiro, DAPP, and related effector math | Private |
 
-Private work stays private. Public repositories are fair game and labeled at their current maturity level — research and prototype material, not fielded capability claims.
+Private work stays private. Public repositories are fair game and labeled at their current maturity level — research and prototype material, **not** fielded capability claims.
 
 ---
 
 ### How Engagement Works
 
-A technical force multiplier for uncertain, high-speed problems. Available as freelance consulting, embedded architecture, prototype leadership, or possible remote full-time roles.
+Fixed-scope freelance consulting first. See **[Consulting](https://www.fratres-x.com/consulting)** for the current packages:
 
-| Mode | What you get |
+| Package | What you get |
 | --- | --- |
-| **Solo Consultant** | Independent architecture, prototyping, review, and advisory work |
-| **Embedded Architect** | Remote-friendly architecture adapted to your problem space |
-| **Prototype Lead** | Fast thought-to-asset execution across AI, autonomy, safety, sensing, and high-trust systems |
+| AI Safeguard Evaluation Sprint | Threat model, eval/attack set, failure taxonomy, hardening priorities (1–2 weeks, from $4k) |
+| Contested Autonomy / CUAS Architecture Review | Architecture critique, risk/assumptions register, validation gates, next-build priorities (1–2 weeks, from $5k) |
+
+Also available as embedded architecture or prototype leadership when scoped.
 
 **Operating model**
 
@@ -77,16 +85,16 @@ A technical force multiplier for uncertain, high-speed problems. Available as fr
 2. Prototype with reproducible gates and conservative claims
 3. Define the integration path before production exposure
 
-→ **[Explore consulting](https://www.fratres-x.com/consulting)** · **[Request a meeting](mailto:kylebean@fratres-x.com)**
+→ **[Explore consulting](https://www.fratres-x.com/consulting)** · **[Request a meeting](https://www.fratres-x.com/request-meeting)**
 
 ---
 
 ### Support / Donations
 
-All support goes directly to **GPU and API costs** that keep Fratres X AI research, evaluation runs, and prototypes moving.
+All support goes directly to GPU and API costs that keep Fratres X AI research, evaluation runs, and prototypes moving.
 
-> **Sponsor button** → use **♥ Sponsor** on this org (PayPal).  
-> Or donate directly: **[PayPal @KyB413](https://paypal.me/KyB413)**
+- Sponsor button → use ♥ Sponsor on this org (PayPal).
+- Or donate directly: [PayPal @KyB413](https://paypal.me/KyB413)
 
 Thank you — every dollar keeps compute and model access online.
 
@@ -94,13 +102,14 @@ Thank you — every dollar keeps compute and model access online.
 
 ### Sister Organization
 
-**Medical & civilian AI** lives under **[FratresMedAI](https://github.com/FratresMedAI)**.
+Medical & civilian AI lives under **[FratresMedAI](https://github.com/FratresMedAI)**.
 
 ---
 
 ### Leadership
 
-Led by **Kyle Bean**, Founder and Principal Architect of Artificial Intelligence Solutions.  
+Led by **Kyle Bean**, Founder and Principal Architect of Artificial Intelligence Solutions.
+
 Eastern Time · Massachusetts · [fratres-x.com](https://www.fratres-x.com)
 
 ---
