@@ -31,7 +31,7 @@ Built for serious systems where trust comes first.
 **1. Open source** — public software people can clone  
 **2. Prototypes** — dazzler, Veil, Mantle, RADR, MFKS  
 **3. AI red / blue** — containment, forensics, adversarial eval  
-**4. Maritime** — simulation-first detect / track / classify
+**4. Maritime** — detect / track / classify, plus private nav and map-trust research
 
 Research and prototype maturity unless a repo says otherwise. **Not** fielded capability.
 
@@ -71,6 +71,12 @@ Public concept / preliminary-design repos. Docs and models. Not hardware, not se
 ### 4. Maritime
 
 - [mavmrf](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify
+
+Private research (not public — NDA / partner path):
+
+- **Charybdis** — hybrid surface / submerged navigation health and terrain aiding
+- **Scylla** — bathymetric map-trust; accept or refuse a chart match
+- **Nereus** — mission policy after the contact (`v0.1.0`)
 
 ---
 
