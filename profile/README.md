@@ -29,7 +29,7 @@ Built for serious systems where trust comes first.
 ### Four lanes
 
 **1. Open source** — public software people can clone  
-**2. Prototypes** — NIR dazzler, Veil, Mantle  
+**2. Prototypes** — dazzler, Veil, Mantle, RADR, MFKS  
 **3. AI red / blue** — containment, forensics, adversarial eval  
 **4. Maritime** — simulation-first detect / track / classify
 
@@ -44,8 +44,6 @@ Research and prototype maturity unless a repo says otherwise. **Not** fielded ca
 - [SkyArx](https://github.com/Fratres-X-AI/SkyArx) — offline PX4 / no-cloud companion path
 - [RUT](https://github.com/Fratres-X-AI/RUT) — physics-first UGV traversability
 - [ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS) — ROS 2 counter-UAS research stack
-- [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture
-- [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept
 - [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — claims under EW / GNSS / datalink denial
 - [SYNAPSE](https://github.com/Fratres-X-AI/SYNAPSE) — systems / tooling
 
@@ -58,6 +56,8 @@ Public concept / preliminary-design repos. Docs and models. Not hardware, not se
 - [MPL-D](https://github.com/Fratres-X-AI/MPL-D) — NIR multi-point laser dazzler study (non-kinetic EO sensor-denial). Energize blocked.
 - [MS-V](https://github.com/Fratres-X-AI/MS-V) — Veil: multi-spectral obscurant grenade concept
 - [MS-C](https://github.com/Fratres-X-AI/MS-C) — Mantle: site-deployable VIS/IR adversarial camo (fabric / passive DENY)
+- [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture
+- [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept
 
 ---
 
