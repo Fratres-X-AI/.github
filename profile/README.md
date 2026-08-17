@@ -1,117 +1,57 @@
 # Fratres X AI
 
-**AI Solutions Architecture**
+**GPS-denied navigation and map-trust software for small uncrewed vehicles.**
 
-### Advanced AI systems built with speed, precision, and physics first.
+Packets in. Nav health, chart-trust, and mission intent out. Research / simulation grade. Honest limits. No sea-trial claim.
 
-Fratres X AI builds reviewable AI, autonomy, and defensive technology prototypes with physics-first modeling, honest maturity labels, and rapid iteration. No AI magic. No inflated claims. Just serious technical work moving from thought to tangible asset.
-
-**[Website](https://www.fratres-x.com)** · **[Consulting](https://www.fratres-x.com/consulting)** · **[About](https://www.fratres-x.com/about)** · **[Request a Meeting](https://www.fratres-x.com/request-meeting)** · **[LinkedIn](https://www.linkedin.com/in/kyle-bean-fratresxai/)** · **[Support](https://paypal.me/KyB413)**
+**[Website](https://www.fratres-x.com)** · **[LinkedIn](https://www.linkedin.com/in/kyle-bean-fratresxai/)**
 
 ---
 
-### Why Fratres X AI
+## What this org is
 
-Built for serious systems where trust comes first.
+One product lane:
 
-- Clear technical direction for ambiguous AI, autonomy, and defense problems
-- Fast prototypes grounded in physics, constraints, and operational reality
-- Straight answers, conservative claims, and systems built for scrutiny
+- Keep a cheap sensor suite useful on longer GPS-denied legs
+- Refuse a chart or match that is not trustworthy
+- Emit an auditable mission decision: continue, alert, hold, search, recall, or stop
 
-**Physics before narrative.** Start from models, constraints, uncertainty, and validation — not polished claims.
+Core stack (private, research/sim):
 
-**Prototype honesty.** Separate research, prototype, and production boundaries so the work stays clear and defensible.
+- **Charybdis** — hybrid surface / submerged nav health and terrain aiding
+- **Scylla** — bathymetric map-trust; accept or refuse
+- **Nereus** — mission policy after the contact (`v0.1.0`)
 
-**Adversarial thinking.** Blue Team and Red Team experience inform how we evaluate reliability, misuse, and system failure modes.
+Public magnets that serve the same lane:
 
----
+- [JamBoy](https://github.com/Fratres-X-AI/JamBoy) — GPS-denied drone nav (optical flow + offline geo-match + EKF)
+- [mavmrf](https://github.com/Fratres-X-AI/mavmrf) — simulation-first maritime detect / track / classify
+- [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — how we talk about autonomy under denial
+- [SkyArx](https://github.com/Fratres-X-AI/SkyArx) — offline PX4 / no-cloud companion path
+- [RUT](https://github.com/Fratres-X-AI/RUT) — physics-first UGV traversability research
 
-### Focus Areas
-
-- GPS-denied autonomy and navigation health
-- UGV ground mobility and traversability under uncertainty
-- Multi-domain sensor fusion and decision support
-- Counter-UAS and defensive systems concepts
-- AI safety, classifier hardening, and adversarial evaluation
-- Medical AI reliability and local-first agent systems
-
----
-
-### Selected Work
-
-A portfolio of research threads, prototypes, and reliability tooling across defense, autonomy, AI safety, and medical AI.
-
-Visibility below matches the org as of **2026-07-28**. Public links go to live repos. Private threads are named only — details stay behind the curtain / NDA.
-
-| Thread | Project | Status |
-| --- | --- | --- |
-| Missile Defense AI | HYPERLINK — disciplined constellations of imperfect models: uncertainty, handoff under pressure, simulation | Private research |
-| Contested Autonomy | Charybdis — hybrid surface/submerged UUV navigation with terrain aiding and reviewable validation gates | Private research |
-| UGV Ground Mobility | [HEEL-G RUT](https://github.com/Fratres-X-AI/RUT) — Bekker–Wong traversability gates, evidence export, DEM/proprioception scaffold | **Public** |
-| Contested Autonomy | [JamBoy](https://github.com/Fratres-X-AI/JamBoy) — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink | **Public** |
-| Defensive Sensing | [SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I) — receive-oriented field sensing concepts | **Public** |
-| Counter-UAS Stack | [ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS) — ROS 2 counter-UAS research stack: sensing, fusion, autonomy scaffolding | **Public** |
-| Counter-UAS Defense | [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept | **Public** |
-| Rocket Architecture | [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture and modeling | **Public** |
-| Maritime Sensing | [MAVMRF](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify | **Public** |
-| AI Containment | [A.C.E](https://github.com/Fratres-X-AI/A.C.E) — Aegis Containment Engine: auditable, layered AI containment | **Public** |
-| Agent Forensics | [SAGE](https://github.com/Fratres-X-AI/SAGE) — fail-closed agent incident forensics | **Public** |
-| Claims Discipline | [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — public claims rubric for autonomy under EW / GNSS / datalink denial | **Public** |
-| Systems / tooling | [SYNAPSE](https://github.com/Fratres-X-AI/SYNAPSE) | **Public** |
-| Counter-UAS | MPL-D — non-kinetic / optical sensor-denial research thread | Private |
-| Counter-UAS | MS-C — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Private |
-| Effects Concepts | MS-V — multi-spectral obscurant grenade (Veil) concept | Private |
-| CUAS Stack | Wicked Web / constellation and related soft-kill glue | Private |
-| Soft-kill doctrine | PitchBlack, Vampiro, DAPP, and related effector math | Private |
-
-Private work stays private. Public repositories are fair game and labeled at their current maturity level — research and prototype material, **not** fielded capability claims.
+Other public repos stay up. They are not the storefront.
 
 ---
 
-### How Engagement Works
+## What this org is not
 
-Fixed-scope freelance consulting first. See **[Consulting](https://www.fratres-x.com/consulting)** for the current packages:
+- Not a medical AI company
+- Not a conservation AI company
+- Not a fielded fleet or vehicle OEM
+- Not a weapons house
 
-| Package | What you get |
-| --- | --- |
-| AI Safeguard Evaluation Sprint | Threat model, eval/attack set, failure taxonomy, hardening priorities (1–2 weeks, from $4k) |
-| Contested Autonomy / CUAS Architecture Review | Architecture critique, risk/assumptions register, validation gates, next-build priorities (1–2 weeks, from $5k) |
+Sister accounts are **parked**:
 
-Also available as embedded architecture or prototype leadership when scoped.
-
-**Operating model**
-
-1. Model the system, uncertainty, and operational boundary
-2. Prototype with reproducible gates and conservative claims
-3. Define the integration path before production exposure
-
-→ **[Explore consulting](https://www.fratres-x.com/consulting)** · **[Request a meeting](https://www.fratres-x.com/request-meeting)**
+- [FratresMedAI](https://github.com/FratresMedAI) — medical / portfolio work, paused
+- [Fratres X Natura](https://github.com/Fratres-X-Natura) — conservation branch, paused
 
 ---
 
-### Support / Donations
+## How to engage
 
-All support goes directly to GPU and API costs that keep Fratres X AI research, evaluation runs, and prototypes moving.
+Software back-seat only. Eval / replay / shadow on your logs when the fit is real.
 
-- Sponsor button → use ♥ Sponsor on this org (PayPal).
-- Or donate directly: [PayPal @KyB413](https://paypal.me/KyB413)
+Kyle Bean · Massachusetts · [fratres-x.com](https://www.fratres-x.com)
 
-Thank you — every dollar keeps compute and model access online.
-
----
-
-### Sister Organization
-
-Medical & civilian AI lives under **[FratresMedAI](https://github.com/FratresMedAI)**.
-
----
-
-### Leadership
-
-Led by **Kyle Bean**, Founder and Principal Architect of Artificial Intelligence Solutions.
-
-Eastern Time · Massachusetts · [fratres-x.com](https://www.fratres-x.com)
-
----
-
-**Note:** This organization contains early-stage prototype designs and research concepts. Defense work stays defensive: no illegal work, no free technical handouts intended to harm, and nothing meant to put Americans or allies in danger. Some capabilities remain private or under active development.
+Private work stays private. Public repos are labeled at their actual maturity.
