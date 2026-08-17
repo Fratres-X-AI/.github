@@ -26,45 +26,61 @@ Built for serious systems where trust comes first.
 
 ---
 
-### Focus Areas
+### Four lanes
 
-- GPS-denied autonomy and navigation health
-- UGV ground mobility and traversability under uncertainty
-- Multi-domain sensor fusion and decision support
-- Counter-UAS and defensive systems concepts
-- AI safety, classifier hardening, and adversarial evaluation
-- Medical AI reliability and local-first agent systems
+Not fifty threads. Four things we actually work:
+
+1. **Contested / GPS-denied autonomy** — stay useful when GNSS, datalink, or the map is lying
+2. **Maritime sensing** — detect / track / classify in simulation-first maritime work
+3. **Defensive C-UAS prototypes** — sensing, fusion, kinetic concepts, and non-kinetic / dazzler research
+4. **AI containment and forensics** — assume breach, contain egress, keep an audit trail
+
+Medical and conservation work is parked under sister accounts. Not this org’s face.
 
 ---
 
-### Selected Work
+### Open source
 
-A portfolio of research threads, prototypes, and reliability tooling across defense, autonomy, AI safety, and medical AI.
+Public repos, grouped by lane. Research / prototype maturity unless a repo says otherwise. **Not** fielded capability.
 
-Visibility below matches the org as of **2026-07-28**. Public links go to live repos. Private threads are named only — details stay behind the curtain / NDA.
+**1. Contested / GPS-denied autonomy**
 
-| Thread | Project | Status |
-| --- | --- | --- |
-| Missile Defense AI | HYPERLINK — disciplined constellations of imperfect models: uncertainty, handoff under pressure, simulation | Private research |
-| Contested Autonomy | Charybdis — hybrid surface/submerged UUV navigation with terrain aiding and reviewable validation gates | Private research |
-| UGV Ground Mobility | [HEEL-G RUT](https://github.com/Fratres-X-AI/RUT) — Bekker–Wong traversability gates, evidence export, DEM/proprioception scaffold | **Public** |
-| Contested Autonomy | [JamBoy](https://github.com/Fratres-X-AI/JamBoy) — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink | **Public** |
-| Defensive Sensing | [SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I) — receive-oriented field sensing concepts | **Public** |
-| Counter-UAS Stack | [ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS) — ROS 2 counter-UAS research stack: sensing, fusion, autonomy scaffolding | **Public** |
-| Counter-UAS Defense | [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept | **Public** |
-| Rocket Architecture | [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture and modeling | **Public** |
-| Maritime Sensing | [MAVMRF](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify | **Public** |
-| AI Containment | [A.C.E](https://github.com/Fratres-X-AI/A.C.E) — Aegis Containment Engine: auditable, layered AI containment | **Public** |
-| Agent Forensics | [SAGE](https://github.com/Fratres-X-AI/SAGE) — fail-closed agent incident forensics | **Public** |
-| Claims Discipline | [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — public claims rubric for autonomy under EW / GNSS / datalink denial | **Public** |
-| Systems / tooling | [SYNAPSE](https://github.com/Fratres-X-AI/SYNAPSE) | **Public** |
-| Counter-UAS | MPL-D — non-kinetic / optical sensor-denial research thread | Private |
-| Counter-UAS | MS-C — Mantle: site-deployable VIS/IR adversarial camo kits (passive DENY) | Private |
-| Effects Concepts | MS-V — multi-spectral obscurant grenade (Veil) concept | Private |
-| CUAS Stack | Wicked Web / constellation and related soft-kill glue | Private |
-| Soft-kill doctrine | PitchBlack, Vampiro, DAPP, and related effector math | Private |
+- [JamBoy](https://github.com/Fratres-X-AI/JamBoy) — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink
+- [SkyArx](https://github.com/Fratres-X-AI/SkyArx) — offline ownership path: open PX4, no-cloud Pi companion
+- [RUT](https://github.com/Fratres-X-AI/RUT) — physics-first UGV traversability (Bekker–Wong gates)
+- [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — how we talk about autonomy under EW / GNSS / datalink denial
 
-Private work stays private. Public repositories are fair game and labeled at their current maturity level — research and prototype material, **not** fielded capability claims.
+**2. Maritime sensing**
+
+- [mavmrf](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify
+
+**3. Defensive C-UAS (public)**
+
+- [SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I) — receive-oriented field sensing concepts
+- [ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS) — ROS 2 counter-UAS research stack
+- [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture and modeling
+- [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept
+
+**4. AI containment and forensics**
+
+- [A.C.E](https://github.com/Fratres-X-AI/A.C.E) — Aegis Containment Engine: auditable, layered AI containment
+- [SAGE](https://github.com/Fratres-X-AI/SAGE) — fail-closed agent incident forensics
+
+**Tooling**
+
+- [SYNAPSE](https://github.com/Fratres-X-AI/SYNAPSE) — systems / tooling
+
+---
+
+### Prototypes (private)
+
+These stay behind the curtain. Named so the org is honest about what exists. No source, no internals, no “go clone it.”
+
+- **Dazzler / optical sensor-denial** — MPL-D
+- **Soft-kill and obscuration** — MS-C Mantle, MS-V Veil, PitchBlack, Vampiro, DAPP, Wicked Web
+- **Other private research** — available under NDA when the fit is real
+
+If you cannot click it, it is not the lead. The open-source list above is.
 
 ---
 
@@ -100,9 +116,10 @@ Thank you — every dollar keeps compute and model access online.
 
 ---
 
-### Sister Organization
+### Sister accounts (parked)
 
-Medical & civilian AI lives under **[FratresMedAI](https://github.com/FratresMedAI)**.
+- [FratresMedAI](https://github.com/FratresMedAI) — medical / portfolio, paused
+- [Fratres X Natura](https://github.com/Fratres-X-Natura) — conservation, paused
 
 ---
 
