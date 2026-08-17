@@ -28,59 +28,49 @@ Built for serious systems where trust comes first.
 
 ### Four lanes
 
-Not fifty threads. Four things we actually work:
+**1. Open source** — public software people can clone  
+**2. Prototypes** — NIR dazzler, Veil, Mantle  
+**3. AI red / blue** — containment, forensics, adversarial eval  
+**4. Maritime** — simulation-first detect / track / classify
 
-1. **Contested / GPS-denied autonomy** — stay useful when GNSS, datalink, or the map is lying
-2. **Maritime sensing** — detect / track / classify in simulation-first maritime work
-3. **Defensive C-UAS prototypes** — sensing, fusion, kinetic concepts, and non-kinetic / dazzler research
-4. **AI containment and forensics** — assume breach, contain egress, keep an audit trail
-
-Medical and conservation work is parked under sister accounts. Not this org’s face.
+Research and prototype maturity unless a repo says otherwise. **Not** fielded capability.
 
 ---
 
-### Open source
-
-Public repos, grouped by lane. Research / prototype maturity unless a repo says otherwise. **Not** fielded capability.
-
-**1. Contested / GPS-denied autonomy**
+### 1. Open source
 
 - [JamBoy](https://github.com/Fratres-X-AI/JamBoy) — GPS-denied drone nav: optical flow + offline geo-match + EKF → MAVLink
-- [SkyArx](https://github.com/Fratres-X-AI/SkyArx) — offline ownership path: open PX4, no-cloud Pi companion
-- [RUT](https://github.com/Fratres-X-AI/RUT) — physics-first UGV traversability (Bekker–Wong gates)
-- [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — how we talk about autonomy under EW / GNSS / datalink denial
-
-**2. Maritime sensing**
-
-- [mavmrf](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify
-
-**3. Defensive C-UAS (public)**
-
 - [SENTRY Node Mk I](https://github.com/Fratres-X-AI/SENTRY-Node-Mk-I) — receive-oriented field sensing concepts
+- [SkyArx](https://github.com/Fratres-X-AI/SkyArx) — offline PX4 / no-cloud companion path
+- [RUT](https://github.com/Fratres-X-AI/RUT) — physics-first UGV traversability
 - [ClearSky OS](https://github.com/Fratres-X-AI/ClearSky-OS) — ROS 2 counter-UAS research stack
-- [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture and modeling
+- [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) — Phase 0 counter-UAS rocket architecture
 - [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) — dense, low-cost kinetic intercept cloud concept
-
-**4. AI containment and forensics**
-
-- [A.C.E](https://github.com/Fratres-X-AI/A.C.E) — Aegis Containment Engine: auditable, layered AI containment
-- [SAGE](https://github.com/Fratres-X-AI/SAGE) — fail-closed agent incident forensics
-
-**Tooling**
-
+- [Denied-Environment Claims Rubric](https://github.com/Fratres-X-AI/Denied-Environment-Claims-Rubric) — claims under EW / GNSS / datalink denial
 - [SYNAPSE](https://github.com/Fratres-X-AI/SYNAPSE) — systems / tooling
 
 ---
 
-### Prototypes (private)
+### 2. Prototypes
 
-These stay behind the curtain. Named so the org is honest about what exists. No source, no internals, no “go clone it.”
+Public concept / preliminary-design repos. Docs and models. Not hardware, not sea-trial, not a capability claim.
 
-- **Dazzler / optical sensor-denial** — MPL-D
-- **Soft-kill and obscuration** — MS-C Mantle, MS-V Veil, PitchBlack, Vampiro, DAPP, Wicked Web
-- **Other private research** — available under NDA when the fit is real
+- [MPL-D](https://github.com/Fratres-X-AI/MPL-D) — NIR multi-point laser dazzler study (non-kinetic EO sensor-denial). Energize blocked.
+- [MS-V](https://github.com/Fratres-X-AI/MS-V) — Veil: multi-spectral obscurant grenade concept
+- [MS-C](https://github.com/Fratres-X-AI/MS-C) — Mantle: site-deployable VIS/IR adversarial camo (fabric / passive DENY)
 
-If you cannot click it, it is not the lead. The open-source list above is.
+---
+
+### 3. AI red / blue
+
+- [A.C.E](https://github.com/Fratres-X-AI/A.C.E) — Aegis Containment Engine: auditable, layered AI containment
+- [SAGE](https://github.com/Fratres-X-AI/SAGE) — fail-closed agent incident forensics
+
+---
+
+### 4. Maritime
+
+- [mavmrf](https://github.com/Fratres-X-AI/mavmrf) — simulation-first multi-sensor maritime detect-track-classify
 
 ---
 
