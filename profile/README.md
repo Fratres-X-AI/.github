@@ -56,7 +56,7 @@ Public concept / preliminary-design repos. Docs and models. Not hardware, not se
 - [MPL-D](https://github.com/Fratres-X-AI/MPL-D) - NIR multi-point laser dazzler study (non-kinetic EO sensor-denial). Energize blocked.
 - [MS-V](https://github.com/Fratres-X-AI/MS-V) - Veil: multi-spectral obscurant grenade concept
 - [MS-C](https://github.com/Fratres-X-AI/MS-C) - Mantle: site-deployable VIS/IR adversarial camo (fabric / passive DENY)
-- [RADR mk.60](https://github.com/Fratres-X-AI/RADR-mk.60) - Phase 0 counter-UAS rocket architecture
+- **RADR mk.60** - Phase 0 counter-UAS rocket architecture (private repo; available to qualified U.S. reviewers on request)
 - [MFKS Kinetic Cloud](https://github.com/Fratres-X-AI/MFKS-Kinetic-Cloud) - dense, low-cost kinetic intercept cloud concept
 
 ---
@@ -70,11 +70,11 @@ Public concept / preliminary-design repos. Docs and models. Not hardware, not se
 
 ### 4. Maritime
 
+- [Charybdis](https://github.com/Fratres-X-AI/Charybdis) - hybrid surface / submerged navigation health and terrain aiding (public; proprietary license)
 - [mavmrf](https://github.com/Fratres-X-AI/mavmrf) - simulation-first multi-sensor maritime detect-track-classify
 
 Private research (not public - NDA / partner path):
 
-- **Charybdis** - hybrid surface / submerged navigation health and terrain aiding
 - **Scylla** - bathymetric map-trust; accept or refuse a chart match
 - **Nereus** - mission policy after the contact (`v0.1.0`)
 
